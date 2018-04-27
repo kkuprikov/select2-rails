@@ -4261,8 +4261,8 @@ S2.define('select2/dropdown/attachBody',[
       bottom: $window.scrollTop() + $window.height()
     };
 
-    enoughRoomBelow = true,
-    enoughRoomAbove = false,
+    var enoughRoomBelow = true;
+    var enoughRoomAbove = false;
 
     var css = {
       left: offset.left,
